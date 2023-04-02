@@ -1,5 +1,6 @@
 class Factura {
-    constructor(fecha,cliente,vencimiento) {
+    constructor(id,fecha,cliente,vencimiento) {
+        this.id=id
         this.fecha=fecha
         this.cliente=cliente
         this.vencimiento=vencimiento
